@@ -1,0 +1,126 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+ *{
+  font-family: Inter;
+  margin: 0;
+  box-sizing: border-box;
+ }
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #161619;
+ }
+
+ #root{
+    background-color: #1a1b21;
+    width: 300px;
+    height: 650px;
+    border-radius: 10px;
+    position: relative;
+ }
+ .info{
+    /*border: 1px solid red;*/
+    text-align: center;
+ }
+.info-img{
+    width: 299px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info-text-primary{
+    color: #fff;
+    padding: 15px;
+    font-size: 29px;
+    line-height: 1.2em;
+}
+.info-text-secondary{
+    color: rgb(160, 105, 3);
+    font-weight: 100;
+    font-size: 11px;
+    margin-top: -15px;
+}
+.info-email{
+    color: #fff;
+    font-size: 9px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.info-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.info-email-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    color: black;
+    font-weight: 700;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+}
+.info-linkedin-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(2, 63, 87);
+}
+.envelope{
+    color: black;
+}
+.linkedin{
+    color: white;
+}
+.about, .interests{
+    /*border: 2px solid red;*/
+    color: white;
+    padding: 20px;
+}
+.interests{
+    margin-top: -20px;
+}
+.about--title, .interests--title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+.about--paragraph, .interests--paragraph{
+  font-size: 0.65rem;
+  line-height: 150%;
+}
+.footer--container{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.footer-icon{
+    color:#918e9b;
+}
+.footer-icon:hover {
+    filter: brightness(120%);
+  }
